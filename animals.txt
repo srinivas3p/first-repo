@@ -1,5 +1,9 @@
-M Muskrat
+M Mole
 N Newt
+<<<<<<< HEAD
 O Onager
+=======
+O Ocelot
+>>>>>>> alternative
 P Panda
 T Tapir
