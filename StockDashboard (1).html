@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stock Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Stock Dashboard</h1>
+    </header>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="dashboard" style="display: none;">
+        <h2>Stock Price and Projection</h2>
+        <div id="stock-price">STOCK NAME AND PRICE : APPLE-$120.50</div>
+        <div id="stock-projection">STOCK PROJECTION: $130.00</div>
+    </section>
+    <script src="script.py"></script>
+    <script src="script.js"></script>
+</body>
+</html>
